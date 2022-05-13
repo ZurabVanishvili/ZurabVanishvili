@@ -31,14 +31,14 @@ cursor.execute('''
 CREATE TABLE IF NOT EXISTS covid19
 (
 datetime int  ,
-positive int ,
+positive int,
 negative int ,
-death int  
-
-)
+death int 
+);
 
 ''')
 for eachone in getInfo:
 
  cursor.execute('INSERT INTO covid19(datetime , positive , negative , death) VALUES(?, ? ,? ,?)' , (eachone['date'] , eachone['positive'] ,  eachone['negative']  , eachone['death']) )
  conn.commit()
+ conn.close()
