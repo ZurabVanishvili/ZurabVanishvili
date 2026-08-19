@@ -1,16 +1,22 @@
-## Hi there 👋
+# Zurab Vanishvili
 
-<!--
-**ZurabVanishvili/ZurabVanishvili** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Java 21 / Spring Boot / Jakarta EE engineer.** I build and modernize backend systems
+for financial platforms — currently at FINA LLC, on a product serving central banks.
 
-Here are some ideas to get you started:
+I work on the parts that are expensive to get wrong: transactional integrity,
+XML/ISO 20022 message pipelines, cryptographic signing, and moving legacy
+EJB/WildFly codebases onto modern Spring Boot without downtime.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Selected work
+| Project | What it demonstrates | Live |
+|---|---|---|
+| [iso20022-payment-processor](#) | ISO 20022 ingestion, transactional outbox, XMLDSig verification, idempotent processing | [demo](#) |
+| [strangler-fig-jakartaee-migration](#) | EJB/WildFly → Spring Boot 3 migration behind a routing facade + written playbook | [demo](#) |
+| [<product>](#) | Multi-tenant React + Spring Boot SaaS with OIDC, RBAC, audit logging | [demo](#) |
+
+### Stack
+Java 8/11/21 · Spring Boot · Jakarta EE (EJB, CDI, JAX-RS, JAX-WS, JAXB) · Hibernate/JPA
+· PostgreSQL · WildFly / JBoss EAP · JMS · WebSocket · React · TypeScript
+· Docker · Testcontainers · JUnit 5 · REST Assured
+
+📍 Tbilisi, Georgia (UTC+4) · Available for contract work · vanishvili.zurab.1@gmail.com
